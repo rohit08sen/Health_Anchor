@@ -1,0 +1,14 @@
+{
+  "name": "health_anchor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm install --prefix dashboard && npm run build --prefix frontend && npm run build --prefix dashboard",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
